@@ -1,0 +1,436 @@
+body{padding-top:50px;}
+    .img100{width: 100%;}
+
+    #toTop{
+  position: fixed;
+  bottom: 55px;
+  right: 25px;
+  cursor: pointer;
+  display: none;
+  background-color: #336799;
+}
+#toTop .fa {margin-right: 5px;}
+
+    #welch-80{
+      width: 90px;
+      height: 60px;
+      z-index: 1;
+      float: left;
+      margin-right: 0px;
+    }
+
+    #welch-80-sm{
+      width: 50px;
+      height: 35px;
+      z-index: 1;
+      float: left;
+      margin-right: 0px;
+    }
+#firsttag{text-align: center;
+          font-family: "Open Sans", sans-serif;  
+          font-size: 48px;
+          font-weight: 600;
+          color: #000;}
+
+.btn-primary {background-color: #336799;
+              font-weight: bold;
+              font-family: "Open Sans", sans-serif;}
+
+.btn-primary:hover{
+              text-decoration: underline;
+              font-weight: bolder;
+}
+
+.jumbotron {
+  padding: 0px;
+  margin: 0px;
+  background-color: #336799;
+  background-repeat: no-repeat;
+  display: block;
+  background-size:cover;
+  width: 100%;
+  padding: 0px;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  background-color: #3458B8;
+  
+  text-align: center;
+  color: #fff;
+}
+
+.jumbotron h1{
+
+  margin: 0;
+  padding: 0;
+  line-height: 450px;
+  vertical-align: center;
+  /*font-family: "Arial Narrow", Arial, Helvetica, sans-serif;  
+  ./*font-size: 6em;*/
+  font-family: Roboto;  
+  color: #fff;
+  white-space: nowrap;
+  overflow: hidden;
+
+}
+
+#jumbo {
+  
+  background-image: url(../img/welch1.jpg);
+  
+}
+
+#jumbo2 {
+  
+  background-image: url(../img/welchs-transport.jpg);
+  height: 600px;
+  line-height: 600px;
+  vertical-align: center;
+  
+}
+
+#jumbo2 h1{
+
+  margin: 0;
+  padding: 0;
+  line-height: 600px;
+  vertical-align: center;
+  font-family: "Open Sans", sans-serif;  
+  font-size: 128px;
+  font-weight: 600;
+  color: #000;
+}
+
+#jumbo2SpM {
+  
+  background-image: url(../img/trailer-1a.jpg);
+  height: 600px;
+  line-height: 600px;
+  vertical-align: center;
+  
+}
+
+#jumbo2SpM h1{
+
+  margin: 0;
+  padding: 0;
+  line-height: 600px;
+  vertical-align: center;
+  font-family: "Open Sans", sans-serif;  
+  font-size: 128px;
+  font-weight: 600;
+  color: #000;
+}
+
+#jumbo2CR {
+  
+  background-image: url(../img/welchs-crane1.gif);
+  height: 600px;
+  line-height: 600px;
+  vertical-align: center;
+  
+}
+
+#jumbo2CR h1{
+
+  margin: 0;
+  padding: 0;
+  line-height: 600px;
+  vertical-align: center;
+  font-family: "Open Sans", sans-serif;  
+  font-size: 96px;
+  font-weight: 600;
+  color: #000;
+}
+#jumbo3 {
+  
+  background-image: url(../img/welch-history1.jpg);
+  height: 600px;
+  line-height: 600px;
+  vertical-align: center;
+  
+}
+
+#jumbo3a {
+  
+  background-image: url(../img/welch-history2.jpg);
+  height: 600px;
+  line-height: 600px;
+  vertical-align: center;
+  
+}
+
+#jumbo4 {
+  
+  background-image: url(../img/trailer-3a.jpg);
+  height: 600px;
+  line-height: 600px;
+  vertical-align: center;
+  
+}
+
+#jumbo5 {
+  
+  background-image: url(../img/boat_yard.jpg);
+  height: 600px;
+  line-height: 600px;
+  vertical-align: center;
+  
+}
+
+#jumbo6 {
+  
+  background-image: url(../img/pallet_delivery.jpg);
+  height: 600px;
+  line-height: 600px;
+  vertical-align: center;
+  
+}
+
+#jumbo7 {
+  
+  background-image: url(../img/hazardous_freight.jpg);
+  height: 600px;
+  line-height: 600px;
+  vertical-align: center;
+  
+}
+
+.navbar{background-color: #336799;}
+
+.dropdown-toggle{background-color: #336799;}
+
+.dropdown-menu{background-color: #336799;}
+
+.dropdown-menu ul:hover li:hover a:hover {background-color: #336799;}
+
+.form-style-1 {
+    margin:10px auto;
+    max-width: 400px;
+    padding: 20px 12px 10px 20px;
+    font: 13px "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+.form-style-1 li {
+    padding: 0;
+    display: block;
+    list-style: none;
+    margin: 10px 0 0 0;
+}
+.form-style-1 label{
+    margin:0 0 3px 0;
+    padding:0px;
+    display:block;
+    font-weight: bold;
+}
+.form-style-1 input[type=text],
+.form-style-1 input[type=date],
+.form-style-1 input[type=datetime],
+.form-style-1 input[type=number],
+.form-style-1 input[type=search],
+.form-style-1 input[type=time],
+.form-style-1 input[type=url],
+.form-style-1 input[type=email],
+textarea,
+select{
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    border:1px solid #BEBEBE;
+    padding: 7px;
+    margin:0px;
+    -webkit-transition: all 0.30s ease-in-out;
+    -moz-transition: all 0.30s ease-in-out;
+    -ms-transition: all 0.30s ease-in-out;
+    -o-transition: all 0.30s ease-in-out;
+    outline: none; 
+}
+.form-style-1 input[type=text]:focus,
+.form-style-1 input[type=date]:focus,
+.form-style-1 input[type=datetime]:focus,
+.form-style-1 input[type=number]:focus,
+.form-style-1 input[type=search]:focus,
+.form-style-1 input[type=time]:focus,
+.form-style-1 input[type=url]:focus,
+.form-style-1 input[type=email]:focus,
+.form-style-1 textarea:focus,
+.form-style-1 select:focus{
+    -moz-box-shadow: 0 0 8px #88D5E9;
+    -webkit-box-shadow: 0 0 8px #88D5E9;
+    box-shadow: 0 0 8px #88D5E9;
+    border: 1px solid #88D5E9;
+}
+.form-style-1 .field-divided{
+    width: 49%;
+}
+
+.form-style-1 .field-long{
+    width: 100%;
+}
+.form-style-1 .field-select{
+    width: 100%;
+}
+.form-style-1 .field-textarea{
+    height: 100px;
+}
+.form-style-1 input[type=submit], .form-style-1 input[type=button]{
+    background: #4B99AD;
+    padding: 8px 15px 8px 15px;
+    border: none;
+    color: #fff;
+}
+.form-style-1 input[type=submit]:hover, .form-style-1 input[type=button]:hover{
+    background: #4691A4;
+    box-shadow:none;
+    -moz-box-shadow:none;
+    -webkit-box-shadow:none;
+}
+.form-style-1 .required{
+    color:red;
+}
+
+footer{
+          padding-top: 5px;
+          background-color: #0A2C4C;
+          text-align: center;
+          height: 100px;
+          color:#706933;
+}
+
+    @media (min-width: 1200px) {
+// css specific properties col-lg-*
+
+
+}
+ 
+/* Landscape tablets and medium desktops */
+@media (min-width: 992px) and (max-width: 1199px) {
+// css specific properties col-md-*
+
+
+}
+ 
+/* Portrait tablets and small desktops */
+@media (min-width: 768px) and (max-width: 991px) {
+// css specific properties col-sm-*
+
+}
+ 
+/* Landscape phones and portrait tablets */
+@media (max-width: 767px) {
+// css specific properties col-xs-*
+
+/* Portrait phones and smaller */
+@media (max-width: 480px) {
+// css specific properties col-xs-* or none for default
+#jumbo2 {
+
+  display: none;
+
+}
+
+#jumbo2 {
+  
+  background-image: none;
+  height: 0px;
+  line-height: 0px;
+  vertical-align: center;
+  
+}
+
+
+
+ul.nav a:hover { color: #E7DFA0 !important; }
+/*.navbar-brand a:hover { color: #E7DFA0 !important; }*/
+#welch-80{
+  
+      
+      width: 5px;
+      height: 3px;
+      z-index: 1;
+      float: left;
+      margin-right: 0px;
+}
+
+
+.form-style-1 {
+    margin:10px auto;
+    max-width: 400px;
+    padding: 20px 12px 10px 20px;
+    font: 13px "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+.form-style-1 li {
+    padding: 0;
+    display: block;
+    list-style: none;
+    margin: 10px 0 0 0;
+}
+.form-style-1 label{
+    margin:0 0 3px 0;
+    padding:0px;
+    display:block;
+    font-weight: bold;
+}
+.form-style-1 input[type=text],
+.form-style-1 input[type=date],
+.form-style-1 input[type=datetime],
+.form-style-1 input[type=number],
+.form-style-1 input[type=search],
+.form-style-1 input[type=time],
+.form-style-1 input[type=url],
+.form-style-1 input[type=email],
+textarea,
+select{
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    border:1px solid #BEBEBE;
+    padding: 7px;
+    margin:0px;
+    -webkit-transition: all 0.30s ease-in-out;
+    -moz-transition: all 0.30s ease-in-out;
+    -ms-transition: all 0.30s ease-in-out;
+    -o-transition: all 0.30s ease-in-out;
+    outline: none; 
+}
+.form-style-1 input[type=text]:focus,
+.form-style-1 input[type=date]:focus,
+.form-style-1 input[type=datetime]:focus,
+.form-style-1 input[type=number]:focus,
+.form-style-1 input[type=search]:focus,
+.form-style-1 input[type=time]:focus,
+.form-style-1 input[type=url]:focus,
+.form-style-1 input[type=email]:focus,
+.form-style-1 textarea:focus,
+.form-style-1 select:focus{
+    -moz-box-shadow: 0 0 8px #88D5E9;
+    -webkit-box-shadow: 0 0 8px #88D5E9;
+    box-shadow: 0 0 8px #88D5E9;
+    border: 1px solid #88D5E9;
+}
+.form-style-1 .field-divided{
+    width: 49%;
+}
+
+.form-style-1 .field-long{
+    width: 100%;
+}
+.form-style-1 .field-select{
+    width: 100%;
+}
+.form-style-1 .field-textarea{
+    height: 100px;
+}
+.form-style-1 input[type=submit], .form-style-1 input[type=button]{
+    background: #4B99AD;
+    padding: 8px 15px 8px 15px;
+    border: none;
+    color: #fff;
+}
+.form-style-1 input[type=submit]:hover, .form-style-1 input[type=button]:hover{
+    background: #4691A4;
+    box-shadow:none;
+    -moz-box-shadow:none;
+    -webkit-box-shadow:none;
+}
+.form-style-1 .required{
+    color:red;
+}
